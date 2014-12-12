@@ -7,13 +7,13 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 
 #input_file = open("data_clean_imputed.csv","r")
-input_file = open("pca.csv","r")
+input_file = open("../data/pca.csv","r")
 
 lines = input_file.readlines()
 
 TRAINING_SIZE = 316
 CLASSIFICATION_TYPE = 2
-PCA_NUM = 40;
+PCA_NUM = 100;
 
 X = []
 y = []

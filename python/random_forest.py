@@ -11,7 +11,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 
 #input_file = open("data_clean_imputed.csv","r")
-input_file = open("pca.csv","r")
+input_file = open("../data/pca.csv","r")
 
 lines = input_file.readlines()
 
