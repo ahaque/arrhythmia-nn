@@ -13,13 +13,15 @@ We use [scikit-learn](http://scikit-learn.org/stable/) for training and testing 
 * Random Forest
 
 ### Neural Network Implementation
-Neural networks are implemented in MATLAB. These files are found in the [`./matlab/`](./matlab) folder. Each file is explained below:
+Neural networks are implemented in MATLAB with the [Neural Network Toolbox](http://www.mathworks.com/products/neural-network/). These files are found in the [`./matlab/`](./matlab) folder. Each file is explained below:
 
 [`./matlab/nn_main.m`](./matlab/nn_main.m) - Iteratively trains several neural networks by varying several hyperparameters, training set size, and train/test ratios
 
 [`./matlab/nn_single_iter.m`](./matlab/nn_single_iter.m) - Trains a single neural network using the specified parameters
 
 [`./matlab/make_rse_plots.m`](./matlab/make_rse_plots.m) and [`./matlab/make_accuracy_plots.m`](./matlab/make_accuracy_plots.m) - Take input files containing results of the neural network tuning stage, generate, and format plots.
+
+To train the network on the GPU, you must have the Mathwork's [Parallel Computing toolbox](http://www.mathworks.com/products/parallel-computing/).
 
 ### Data
 We use the [Arrhythmia Data Set](https://archive.ics.uci.edu/ml/datasets/Arrhythmia) which is part of the UCI Machine Learning Repository. Our imputed dataset is located at
