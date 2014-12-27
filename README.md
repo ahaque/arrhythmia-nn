@@ -1,6 +1,7 @@
 arrhythmia-nn
 =============
 ##### Cardiac Dysrhythmia Detection with GPU-Accelerated Neural Networks
+##### Last Updated: December 26, 2014
 
 ### Poster & Paper
 If you want an overview, you should read our [poster](http://albert.cm/dl/arrhythmia_poster.pdf). The [paper](http://albert.cm/dl/arrhythmia_paper.pdf) is more technical about algorithms and implementation details. The poster is slightly outdated so view the paper for the most current results.
